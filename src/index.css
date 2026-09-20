@@ -1,0 +1,12 @@
+@import "tailwindcss";
+/* @plugin "daisyui";  */
+
+html,body {
+  color: #f3f4ee;
+  background-color: #101a16;
+  background-image:
+    linear-gradient(to right, #2b3a33 1px, transparent 1px),
+    linear-gradient(to bottom, #2b3a33 1px, transparent 1px);
+  background-size: 26px 26px;
+  background-attachment: fixed;
+}
