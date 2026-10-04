@@ -1,7 +1,7 @@
 import { AiFillCheckCircle } from "react-icons/ai";
 import { BiNavigation } from "react-icons/bi";
 import { GoGear, GoGitBranch, GoGoal } from "react-icons/go";
-import SectionHeder from "./shared/sectionHeder";
+import SectionHeder from "./shared/SectionHeder";
 
 const studying = () => {
     return (

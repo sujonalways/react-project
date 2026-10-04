@@ -1,4 +1,4 @@
-import SectionHeder from "./shared/sectionHeder";
+import SectionHeder from "./shared/SectionHeder";
 import FeaturedCard from "./shared/FeaturedCard";
 import { GoGoal } from "react-icons/go";
 import { AiFillCheckCircle, AiFillChrome } from "react-icons/ai";

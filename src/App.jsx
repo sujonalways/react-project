@@ -1,9 +1,10 @@
 import Navbar from "./assets/components/Navbar";
-import Banner from "./assets/components/banner";
+import Banner from "./assets/components/Banner";
 import Stats from "./assets/components/Stats";
 import Studying from "./assets/components/Studying";
 import Featured from "./assets/components/Featured";
 import HowitWorsk from "./assets/components/HowitWorsk";
+import AiDaylearning from "./assets/components/AiDaylearning";
 
 
 function App() {
@@ -13,8 +14,9 @@ function App() {
       <Banner />
       <Stats />
       <Studying />
-      <Featured />
+      <Featured  />
       <HowitWorsk  />
+      <AiDaylearning />
     </div>
   );
 }
