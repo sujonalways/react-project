@@ -1,6 +1,6 @@
 import { HiOutlineArrowSmallRight } from "react-icons/hi2";
 
-const banner = () => {
+const Banner = () => {
   return (
     <div className="container mx-auto text-center py-15 space-y-8">
       <span className="badge">Built for students who like to see progress</span>
@@ -32,7 +32,7 @@ const banner = () => {
 
         <progress
           className="progress h-3 text-[#0e7c66]"
-          value="100"
+          value="50"
           max="100"
         ></progress>
         <ul className="space-y-4 ">
@@ -51,4 +51,4 @@ const banner = () => {
   );
 };
 
-export default banner;
+export default Banner;

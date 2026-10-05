@@ -5,6 +5,8 @@ import Studying from "./assets/components/Studying";
 import Featured from "./assets/components/Featured";
 import HowitWorsk from "./assets/components/HowitWorsk";
 import AiDaylearning from "./assets/components/AiDaylearning";
+import Review from "./assets/components/Review";
+import Pricing from "./assets/components/Pricing";
 
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
       <Featured  />
       <HowitWorsk  />
       <AiDaylearning />
+      <Review />
+      <Pricing />
     </div>
   );
 }
