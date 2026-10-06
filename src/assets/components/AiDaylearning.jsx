@@ -3,7 +3,7 @@ import { BsStars } from "react-icons/bs";
 const AiDaylearning = () => {
   return (
     <section className="container mx-auto mt-10">
-      <div className=" mx-50 rounded-3xl bg-[#14231f] grid grid-cols-2 items-center gap-4">
+      <div className=" mx-5 rounded-3xl bg-[#14231f] grid grid-cols-1 items-center md:gap-4 md:grid-cols-2 ">
         {/* box 1 */}
         <div className=" text-white p-6">
           <div className="flex text-yellow-400 gap-1 mb-1">

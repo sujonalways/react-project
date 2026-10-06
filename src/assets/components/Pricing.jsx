@@ -33,12 +33,12 @@ const Pricing = () => {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-4">
       <SectionHeder
         title="Pricing"
         description="Choose the perfect plan for your needs."
       />
-      <div className="flex justify-center mt-8">
+      <div className="flex justify-center mt-2">
         <div className=" grid grid-cols-1 md:grid-cols-2 gap-4 w-185 mt-8 p-4 rounded-lg shadow-md">
           {pricingPlans.map((plan) => (
             <div key={plan.id} className={`border bg-white rounded-lg p-6 mt-4 mb-4  ${plan.pricingType === "Pro" ? "my-0 border-[#0E7C66] border-2" : "" }`}>

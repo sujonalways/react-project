@@ -2,17 +2,17 @@ import { HiOutlineArrowSmallRight } from "react-icons/hi2";
 
 const Banner = () => {
   return (
-    <div className="container mx-auto text-center py-15 space-y-8">
+    <div className="container mx-auto text-center py-10 md:py-15 space-y-4 md:space-y-8">
       <span className="badge">Built for students who like to see progress</span>
-      <h2 className="font-semibold text-4xl mx-auto max-w-125">
+      <h2 className="font-semibold text-[26px] md:text-4xl mx-auto max-w-100 md:max-w-125">
         Turn big goals into daily tasks you'll actually finish
       </h2>
-      <p className="mx-auto max-w-175">
+      <p className="mx-auto font-[15px] max-w-110 md:max-w-175">
         set a goal, break it into tasks, and watch a progress bar move every
         time you check one off . No spreadsheets, no guessing what to study next
       </p>
       {/* button section  */}
-      <div className="flex gap-4 items-center justify-center">
+      <div className="flex gap-4 my-10  items-center justify-center">
         <button className="btn bg-[#0e7c66] text-white border-none">
           Get started free{" "}
           <HiOutlineArrowSmallRight className="pl-1 text-2xl" />
@@ -20,12 +20,12 @@ const Banner = () => {
         <button className="btn ">See how it works </button>
       </div>
       {/* progress section */}
-      <div className="card bg-base-100 w-130 shadow-sm text-black space-y-4 mx-auto p-4">
+      <div className="card bg-base-100 w-100 md:w-130 shadow-sm text-black space-y-4 mx-auto p-4">
         <div className="flex justify-between items-center gap-4 ">
           <h2 className=" text-black font-medium font-serif">
             Today's progress
           </h2>
-          <p className="text-2xl font-bold text-black font-sans">
+          <p className="md:text-2xl text-xl font-bold text-black font-sans">
             50% complete
           </p>
         </div>

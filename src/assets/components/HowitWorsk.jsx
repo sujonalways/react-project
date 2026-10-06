@@ -44,7 +44,7 @@ const HowitWorsk = () => {
 
       {
         <div className="py-10">
-          <div className="grid grid-cols-3 gap-4 text-center ">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-center ">
             {steps.map((el, index) => {
               return <HowitWorksCard key={index} stepss ={el} index={index} />;
             })}
