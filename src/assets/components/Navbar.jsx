@@ -1,4 +1,5 @@
 import { LuNotebookPen } from "react-icons/lu";
+import { Link } from "react-router";
 
 const navbar = () => {
   return (
@@ -13,16 +14,18 @@ const navbar = () => {
 
         <ul className="flex gap-4 text-slate-900 items-center">
           <li>
-            <a href="#">Features</a>
+    
+            <Link to = "/featurs">Features</Link>
           </li>
           <li>
-            <a href="#">How it works</a>
+           
+            <Link to = "/howitwork">How it works</Link>
           </li>
           <li>
-            <a href="#">Pricing</a>
+            <Link to ="/pricing">Pricing</Link>
           </li>
           <li>
-            <a href="#">FAQ</a>
+            <Link to ="/faq">FAQ</Link>
           </li>
         </ul>
 
