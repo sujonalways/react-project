@@ -1,4 +1,4 @@
-import Navbar from "../../assets/components/Navbar";
+
 import Banner from "../../assets/components/Banner";
 import Stats from "../../assets/components/Stats";
 import Studying from "../../assets/components/Studying";
@@ -9,13 +9,13 @@ import Review from "../../assets/components/Review";
 import Pricing from "../../assets/components/Pricing";
 import FAQ from "../../assets/components/FAQ";
 import NextStudySession from "../../assets/components/NextStudySession";
-import Footer from "../../assets/components/Footer";
+
 
 
 function Homepage() {
   return (
     <div>
-      <Navbar />
+    
       <Banner />
       <Stats />
       <Studying />
@@ -26,7 +26,7 @@ function Homepage() {
       <Pricing />
       <FAQ />
       <NextStudySession />
-      <Footer />
+     
     </div>
   );
 }
