@@ -132,6 +132,24 @@ const SignIn = () => {
                     />
                     Continue with Google
                 </button>
+                <div className="flex items-center gap-4 my-6">
+                    <div className="flex-1 h-px bg-white/10"></div>
+                    <span className="text-gray-500 text-xs">OR CONTINUE WITH</span>
+                    <div className="flex-1 h-px bg-white/10"></div>
+                </div>
+
+                {/* Google Sign In */}
+                <button
+                    type="button"
+                    className="w-full flex items-center justify-center gap-3 py-3 rounded-xl border border-white/10 text-gray-300 hover:bg-white/5 transition"
+                >
+                    <img
+                        src="https://www.svgrepo.com/show/475656/google-color.svg"
+                        alt="Google"
+                        className="w-5 h-5"
+                    />
+                    Continue with Google
+                </button>
 
                 {/* Sign Up Link */}
                 <p className="text-center text-sm text-gray-400 mt-8">
