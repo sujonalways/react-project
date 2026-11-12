@@ -30,12 +30,18 @@ const navbar = () => {
         </ul>
 
         <div className="flex  gap-3 items-center">
+          <Link to= "/signin">
           <button className="font-medium text-slate-900 border px-3 rounded-[10px] py-1.25 text-[16px]">
             Login
           </button>
+
+          </Link>
+          <Link to = "/singup" >
+
           <button className="bg-[#0e7c66] font-bold text-white px-3 rounded-[10px] py-1.25 text-[16px]">
             Get started
           </button>
+          </Link>
         </div>
       </nav>
     </div>
